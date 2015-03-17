@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "A Tic Tac Toe Game Server",
   "author": "Steve Partridge",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stevepartridge/tictactoe-server-nodejs"
+  },
   "dependencies": {
     "sockjs" : "~0.3.15"
   },
