@@ -173,7 +173,6 @@ function gameState(conn, data) {
 
 function setRoutes() {
   addRoute('players.new', newPlayer);
-  addRoute('games.new', newGame);
   addRoute('game.request', gameRequest);
   addRoute('game.request.accept', acceptGameRequest);
   addRoute('game.request.decline', declineGameRequest);
